@@ -1,0 +1,26 @@
+{
+  "name": "skillfull-process-pro-antvue",
+  "version": "1.0.0",
+  "description": "一个基于Vue3.0 + TS 的流程建模器预览",
+  "author": "zxiaozhou",
+  "private": false,
+  "main": "dist/SkillfullProcess.umd.js",
+  "types": "src/index.d.ts",
+  "keywords": [
+    "antdesign-vue",
+    "process",
+    "skillfull"
+  ],
+  "scripts": {
+    "test": "no"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zxiaozhou/skillfull-process-pro-antvue.git"
+  },
+  "license": "GPL-3.0 license",
+  "bugs": {
+    "url": "https://github.com/zxiaozhou/skillfull-process-pro-antvue/issues"
+  },
+  "homepage": "https://github.com/zxiaozhou/skillfull-process-pro-antvue#readme"
+}
