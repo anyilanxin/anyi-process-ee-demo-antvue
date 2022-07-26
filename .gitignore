@@ -1,12 +1,8 @@
-
-.vscode
-yarn-error.log
-yarn.lock
-
 .DS_Store
 node_modules
 package-lock.json
 yarn.lock
+dist
 
 # local env files
 .env.local
