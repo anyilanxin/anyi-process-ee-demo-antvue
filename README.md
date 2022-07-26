@@ -1,4 +1,5 @@
 SKILL FULL PROCESS
 -----------------------
 
-http://localhost:3000/index.html
+1. yarn install
+2. npm run dev
