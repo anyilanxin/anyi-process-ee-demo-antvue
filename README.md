@@ -5,7 +5,7 @@ Skill Full Process Demo
 ===============
 bpmn designer ,bpmn instance 
 
-当前最新版本： 0.9.9（发布日期：2022-07-26）
+当前最新版本： 1.0.0（发布日期：2022-07-26）
 
 
 <img src="./public/demo1.png">
