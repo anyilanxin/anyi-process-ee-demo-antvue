@@ -22,3 +22,9 @@ FEATURES
 
 IMPROVEMENTS
 1. Separate out the CSS with some dependencies for less volume
+
+
+## 1.2.1
+
+BUG FIXES
+1. Fixed CSS animations not being compatible in Safari
