@@ -10,6 +10,7 @@ bpmn designer ,bpmn instance ,skill-cloud
 # 注意事项：
 ## 一、SkillFullBpmnDesigner需要引入一下依赖
 ```
+  @import 'skillfull-process-pro-antvue/dist/style.css';
   @import 'bpmn-js-color-picker/colors/color-picker.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
@@ -24,12 +25,14 @@ bpmn designer ,bpmn instance ,skill-cloud
 
 ## 二、SkillFullBpmnDiffer需要引入一下依赖
 ```
+  @import 'skillfull-process-pro-antvue/dist/style.css';
   @import 'bpmn-js/dist/assets/diagram-js.css';
   @import 'bpmn-js/dist/assets/bpmn-js.css';
 ```
 
 ## 三、SkillFullBpmnPreview需要引入一下依赖
 ```
+  @import 'skillfull-process-pro-antvue/dist/style.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
@@ -51,6 +54,7 @@ bpmn designer ,bpmn instance ,skill-cloud
 
 ## 六、SkillfullInstancePreview需要引入一下依赖
 ```
+  @import 'skillfull-process-pro-antvue/dist/style.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
