@@ -3,7 +3,7 @@ import antd from 'ant-design-vue';
 // Register icon sprite
 import App from './App.vue';
 import SkillfullProcessPro from 'skillfull-process-pro-antvue';
-import 'ant-design-vue/dist/antd.less';
+import 'skillfull-process-pro-antvue/dist/style.css';
 import 'ant-design-vue/dist/antd.less';
 import 'bpmn-js/dist/assets/diagram-js.css';
 import 'bpmn-js-color-picker/colors/color-picker.css';
