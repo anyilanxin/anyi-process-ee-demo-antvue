@@ -28,3 +28,11 @@ IMPROVEMENTS
 
 BUG FIXES
 1. Fixed CSS animations not being compatible in Safari
+
+## 1.2.2
+
+BUG FIXES
+1. Fixed naming errors
+2. Fixed the custom information form display exception
+IMPROVEMENTS
+1. Upgrade bpmnjs dependencies
