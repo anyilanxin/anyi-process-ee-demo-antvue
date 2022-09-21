@@ -9,11 +9,11 @@
   import { getCategory, groupPage, userPage, expressionPage, orgTree } from './httpUtil';
   const diagramDesigner = ref();
   const url = reactive({
-    categoryMeghod: getCategory,
-    userPageMeghod: userPage,
-    groupPageMeghod: groupPage,
-    expressionPageMeghod: expressionPage,
-    orgTreeMeghod: orgTree,
+    categoryApi: getCategory,
+    userApi: userPage,
+    groupApi: groupPage,
+    expressionApi: expressionPage,
+    orgTreeApi: orgTree,
   });
   function handleChange(__diagram: any) {
     // console.log('---diagram---', diagram);
