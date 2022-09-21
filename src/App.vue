@@ -1,7 +1,7 @@
 <!-- 建模 -->
 <!-- <template>
   <div id="app">
-    <SkillFullBpmnDesigner @change="handleChange" ref="diagramDesigner" :dataMethod="url" />
+    <SkillFullBpmnDesigner @change="handleChange" ref="diagramDesigner" :dataApi="url" />
   </div>
 </template>
 <script lang="ts" setup>
