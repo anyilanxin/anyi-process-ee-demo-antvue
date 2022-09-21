@@ -8,7 +8,11 @@ bpmn designer ,bpmn instance ,skill-cloud
 当前最新版本： 1.2.1（发布日期：2022-09-08）
 
 # 注意事项：
-## 一、SkillFullBpmnDesigner需要引入一下依赖
+## 一、 安装依赖
+```
+yarn add skillfull-process-pro-antvue bpmn-js-properties-panel
+```
+## 二、SkillFullBpmnDesigner需要引入一下css样式
 ```
   @import 'skillfull-process-pro-antvue/dist/style.css';
   @import 'bpmn-js-color-picker/colors/color-picker.css';
@@ -23,36 +27,14 @@ bpmn designer ,bpmn instance ,skill-cloud
   @import 'bpmn-js-bpmnlint/dist/assets/css/bpmn-js-bpmnlint.css';
 ```
 
-## 二、SkillFullBpmnDiffer需要引入一下依赖
+## 三、SkillFullBpmnDiffer需要引入一下css样式
 ```
   @import 'skillfull-process-pro-antvue/dist/style.css';
   @import 'bpmn-js/dist/assets/diagram-js.css';
   @import 'bpmn-js/dist/assets/bpmn-js.css';
 ```
 
-## 三、SkillFullBpmnPreview需要引入一下依赖
-```
-  @import 'skillfull-process-pro-antvue/dist/style.css';
-  @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
-  @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
-  @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
-  @import 'bpmn-js/dist/assets/bpmn-js.css';
-  @import 'bpmn-js/dist/assets/diagram-js.css';
-  @import 'diagram-js-minimap/assets/diagram-js-minimap.css';
-
-```
-
-## 四、SkillfullDmnDesigner需要引入一下依赖
-```
-
-```
-
-## 五、SkillfullDmnPreview需要引入一下依赖
-```
-
-```
-
-## 六、SkillfullInstancePreview需要引入一下依赖
+## 四、SkillFullBpmnPreview需要引入一下css样式
 ```
   @import 'skillfull-process-pro-antvue/dist/style.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
@@ -61,15 +43,18 @@ bpmn designer ,bpmn instance ,skill-cloud
   @import 'bpmn-js/dist/assets/bpmn-js.css';
   @import 'bpmn-js/dist/assets/diagram-js.css';
   @import 'diagram-js-minimap/assets/diagram-js-minimap.css';
-```
-
-## 七、SkillfullProcessHandle需要引入一下依赖
-```
 
 ```
 
-## 八、全局全部引入
+## 五、SkillfullInstancePreview需要引入一下css样式
 ```
+  @import 'skillfull-process-pro-antvue/dist/style.css';
+  @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
+  @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
+  @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
+  @import 'bpmn-js/dist/assets/bpmn-js.css';
+  @import 'bpmn-js/dist/assets/diagram-js.css';
+  @import 'diagram-js-minimap/assets/diagram-js-minimap.css';
 ```
 
 # 使用教程
