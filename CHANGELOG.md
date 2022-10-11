@@ -1,26 +1,22 @@
 ## 1.0.0
 
-IMPROVEMENTS
-
-BUG FIXES
-
-FEATURES
+### FEATURES
 1. Init
 
 
 ## 1.1.0
 
-IMPROVEMENTS
+### IMPROVEMENTS
 1. Update bpmnjs to 9.3.2
 
-FEATURES
+### FEATURES
 1. Handling missing 'Multi-instance' settings
 2. Handle missing 'Call Activity' settings
 
 
 ## 1.2.0
 
-IMPROVEMENTS
+### IMPROVEMENTS
 1. Separate out the CSS with some dependencies for less volume
 
 
@@ -31,20 +27,20 @@ BUG FIXES
 
 ## 1.2.2
 
-BUG FIXES
+### BUG FIXES
 1. Fixed naming errors
 2. Fixed the custom information form display exception
-IMPROVEMENTS
+### IMPROVEMENTS
 1. Upgrade bpmnjs dependencies
 
 
 ## 1.2.3
 
-BUG FIXES
+### BUG FIXES
 1. Fixed download error
-IMPROVEMENTS
+### IMPROVEMENTS
 1. Upgrade bpmnjs dependencies
-FEATURES
+### FEATURES
 1. Add diagram differ
-NOTICE
+### NOTICE
 1. Incompatible with previous versions(instance rendering needs to provide sequenceFlowMap information)
