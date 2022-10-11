@@ -82,4 +82,4 @@ yarn add skillfull-process-pro-antvue
 
 Preview
 -----------------------------------
-[https://divisu.com](https://divisu.com/#/process/business/task-wait)
+[https://skillfull.divisu.com](https://skillfull.divisu.com/#/process/business/task-wait)
