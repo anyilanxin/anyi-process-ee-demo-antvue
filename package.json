@@ -25,7 +25,6 @@
     "@ant-design/icons-vue": "^6.1.0",
     "ant-design-vue": "^3.2.10",
     "axios": "^0.26.1",
-    "bpmn-js-properties-panel": "^1.6.1",
     "skillfull-process-pro-antvue": "^1.2.3",
     "vue": "^3.2.33"
   },

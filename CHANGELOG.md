@@ -44,3 +44,7 @@ BUG FIXES
 1. Fixed download error
 IMPROVEMENTS
 1. Upgrade bpmnjs dependencies
+FEATURES
+1. Add diagram differ
+Notice
+1. Incompatible with previous versions(instance rendering needs to provide wiring information)
