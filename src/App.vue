@@ -23,7 +23,7 @@
   });
 </script> -->
 <!-- 预览流程实例 -->
-<template>
+<!-- <template>
   <div id="app">
     <SkillfullInstanceBpmnPreview
       ref="diagramInstanceDomRef"
@@ -38,7 +38,7 @@
   onMounted(() => {
     diagramInstanceDomRef.value.viewInstance(instanceData.data);
   });
-</script>
+</script> -->
 
 <!-- 预览流程模型 -->
 
@@ -55,3 +55,21 @@
     diagramDomRef.value.viewBase64Bpmn(base64BpmnData);
   });
 </script> -->
+
+<!-- 模型比较 -->
+<template>
+  <div id="app">
+    <SkillFullBpmnDiffer ref="diagramDomRef" />
+  </div>
+</template>
+<script lang="ts" setup>
+  import { base64BpmnData, bpmn2 } from './process';
+  import { ref, onMounted, nextTick } from 'vue';
+  const diagramDomRef = ref();
+  onMounted(() => {
+    nextTick(() => {
+      diagramDomRef.value.openDiagram(base64BpmnData, 'history');
+      diagramDomRef.value.openDiagram(bpmn2, 'current');
+    });
+  });
+</script>

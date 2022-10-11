@@ -36,3 +36,11 @@ BUG FIXES
 2. Fixed the custom information form display exception
 IMPROVEMENTS
 1. Upgrade bpmnjs dependencies
+
+
+## 1.2.3
+
+BUG FIXES
+1. Fixed download error
+IMPROVEMENTS
+1. Upgrade bpmnjs dependencies
