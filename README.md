@@ -10,7 +10,7 @@ bpmn designer ,bpmn instance ,skill-cloud
 # 注意事项：
 ## 一、 安装依赖
 ```
-yarn add skillfull-process-pro-antvue bpmn-js-properties-panel
+yarn add skillfull-process-pro-antvue
 ```
 ## 二、SkillFullBpmnDesigner需要引入一下css样式
 ```
