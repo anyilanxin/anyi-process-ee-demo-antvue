@@ -70,6 +70,10 @@ yarn add skillfull-process-pro-antvue bpmn-js-properties-panel
 
 <img src="./public/demo3.png">
 
+4. 模型比较
+   
+<img src="./public/demo4.png">
+
 说明
 -----------------------------------
 
