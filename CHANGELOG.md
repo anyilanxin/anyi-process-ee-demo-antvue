@@ -44,3 +44,50 @@ BUG FIXES
 1. Add diagram differ
 ### NOTICE
 1. Incompatible with previous versions(instance rendering needs to provide sequenceFlowMap information)
+
+
+## 1.2.4
+
+### IMPROVEMENTS
+1. Change the process category return data format
+```
+export interface Category {
+  label: string;
+  value: string;
+  disabled?: boolean;
+}
+```
+2. Add default category
+```
+{
+  label: 'bpmn默认',
+  value: 'http://bpmn.io/schema/bpmn',
+}
+```
+### FEATURES
+1. Add zeebe design model (beta)
+```
+<template>
+  <div id="app">
+    <SkillFullZeebeBpmnDesigner @change="handleChange" ref="diagramDesigner" :dataApi="url" />
+  </div>
+</template>
+<script lang="ts" setup>
+  import { ref, reactive, onMounted } from 'vue';
+  import { getCategory, groupPage, userPage, expressionPage, orgTree } from './httpUtil';
+  const diagramDesigner = ref();
+  const url = reactive({
+    categoryApi: getCategory,
+    userApi: userPage,
+    groupApi: groupPage,
+    expressionApi: expressionPage,
+    orgTreeApi: orgTree,
+  });
+  function handleChange(__diagram: any) {
+    // console.log('---diagram---', diagram);
+  }
+  onMounted(() => {
+    diagramDesigner.value.createNewDiagram();
+  });
+</script>
+```

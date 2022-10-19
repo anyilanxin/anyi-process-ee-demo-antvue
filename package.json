@@ -1,7 +1,7 @@
 {
   "name": "skillfull-process-demo",
   "description": "一个基于Vue3.0 + TS 的流程建模预览器",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "author": {
     "name": "zxiaozhou"
   },
@@ -25,7 +25,7 @@
     "@ant-design/icons-vue": "^6.1.0",
     "ant-design-vue": "^3.2.10",
     "axios": "^0.26.1",
-    "skillfull-process-pro-antvue": "^1.2.3",
+    "skillfull-process-pro-antvue": "^1.2.4",
     "vue": "^3.2.33"
   },
   "devDependencies": {

@@ -73,3 +73,28 @@
     });
   });
 </script> -->
+
+<!-- zeebe建模 -->
+<!-- <template>
+  <div id="app">
+    <SkillFullZeebeBpmnDesigner @change="handleChange" ref="diagramDesigner" :dataApi="url" />
+  </div>
+</template>
+<script lang="ts" setup>
+  import { ref, reactive, onMounted } from 'vue';
+  import { getCategory, groupPage, userPage, expressionPage, orgTree } from './httpUtil';
+  const diagramDesigner = ref();
+  const url = reactive({
+    categoryApi: getCategory,
+    userApi: userPage,
+    groupApi: groupPage,
+    expressionApi: expressionPage,
+    orgTreeApi: orgTree,
+  });
+  function handleChange(__diagram: any) {
+    // console.log('---diagram---', diagram);
+  }
+  onMounted(() => {
+    diagramDesigner.value.createNewDiagram();
+  });
+</script> -->
