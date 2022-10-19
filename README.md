@@ -5,7 +5,7 @@ Skill Full Process Demo
 ===============
 bpmn designer ,bpmn instance ,skill-cloud
 
-当前最新版本： 1.2.3（发布日期：2022-10-11）
+当前最新版本： 1.2.4（发布日期：2022-10-19）
 
 # 注意事项：
 ## 一、 安装依赖
