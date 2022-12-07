@@ -1,5 +1,5 @@
 <!-- 建模 -->
-<!-- <template>
+<template>
   <div id="app">
     <AnYiBpmnDesigner @change="handleChange" ref="diagramDesigner" :comps="comps" />
   </div>
@@ -32,7 +32,7 @@
   onMounted(() => {
     diagramDesigner.value.createNewDiagram();
   });
-</script> -->
+</script>
 <!-- 预览流程实例 -->
 <!-- <template>
   <div id="app">
@@ -86,7 +86,7 @@
 </script> -->
 
 <!-- zeebe建模 -->
-<template>
+<!-- <template>
   <div id="app">
     <AnYiZeebeBpmnDesigner @change="handleChange" ref="diagramDesigner" :comps="comps" />
   </div>
@@ -119,7 +119,7 @@
   onMounted(() => {
     diagramDesigner.value.createNewDiagram();
   });
-</script>
+</script> -->
 
 <!-- zeebe预览流程实例 -->
 <!-- <template>
