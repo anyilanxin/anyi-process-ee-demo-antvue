@@ -1,7 +1,7 @@
 
 <img src="./public/logo.png"  height="200" width="200">
 
-AnYi Process Demo
+AnYi Process EE Demo
 ===============
 bpmn designer ,bpmn instance ,skill-cloud
 
