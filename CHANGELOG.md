@@ -46,6 +46,7 @@ BUG FIXES
 1. Incompatible with previous versions(instance rendering needs to provide sequenceFlowMap information)
 
 
+
 ## 1.2.4
 
 ### IMPROVEMENTS
@@ -91,3 +92,21 @@ export interface Category {
   });
 </script>
 ```
+
+
+## 2.0.0-beta2
+
+### IMPROVEMENTS
+1. Provide the ts type
+2. bpmn dependency update
+3. change project name anyi-process-ee-antvue
+### FEATURES
+1. C7 Designer refactoring。
+2. Provides external components to render asynchronous data
+
+
+## 2.0.0-beta3
+
+### IMPROVEMENTS
+1. bpmn依赖升级
+2. 重构c7建模

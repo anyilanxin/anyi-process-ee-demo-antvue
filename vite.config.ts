@@ -25,14 +25,6 @@ export default defineConfig({
     https: false,
     host: true,
     port: 8080,
-    proxy: {
-      '/api': {
-        target: 'https://divisu.com',
-        changeOrigin: true,
-        ws: false,
-        rewrite: (path) => path,
-      },
-    },
   },
   resolve: {
     alias: {
