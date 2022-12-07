@@ -1,13 +1,14 @@
 {
-  "name": "skillfull-process-demo",
+  "name": "anyi-process-ee-demo-antvue",
   "description": "一个基于Vue3.0 + TS 的流程建模预览器",
-  "version": "1.2.4",
+  "version": "2.0.0-beta2",
   "author": {
     "name": "zxiaozhou"
   },
   "keywords": [
-    "SkillFull",
+    "AnYi",
     "process",
+    "bpmn js",
     "Vue",
     "Antd"
   ],
@@ -24,8 +25,7 @@
     "@ant-design/colors": "^6.0.0",
     "@ant-design/icons-vue": "^6.1.0",
     "ant-design-vue": "^3.2.10",
-    "axios": "^0.26.1",
-    "skillfull-process-pro-antvue": "^1.2.4",
+    "anyi-process-ee-antvue": "2.0.0-beta3",
     "vue": "^3.2.33"
   },
   "devDependencies": {

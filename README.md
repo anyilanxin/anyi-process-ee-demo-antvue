@@ -3,18 +3,18 @@
 
 AnYi Process EE Demo
 ===============
-bpmn designer ,bpmn instance ,skill-cloud
+bpmn designer ,bpmn instance ,anyi-process-ee demo
 
-当前最新版本： 1.2.4（发布日期：2022-10-19）
+当前最新版本： 2.0.0-beta3（发布日期：2022-12-07）
 
 # 注意事项：
 ## 一、 安装依赖
 ```
-yarn add skillfull-process-pro-antvue
+yarn add anyi-process-ee-antvue
 ```
-## 二、SkillFullBpmnDesigner需要引入一下css样式
+## 二、AnYiBpmnDesigner需要引入一下css样式
 ```
-  @import 'skillfull-process-pro-antvue/dist/style.css';
+  @import 'anyi-process-ee-antvue/dist/style.css';
   @import 'bpmn-js-color-picker/colors/color-picker.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
@@ -27,16 +27,16 @@ yarn add skillfull-process-pro-antvue
   @import 'bpmn-js-bpmnlint/dist/assets/css/bpmn-js-bpmnlint.css';
 ```
 
-## 三、SkillFullBpmnDiffer需要引入一下css样式
+## 三、AnYiBpmnDiffer需要引入一下css样式
 ```
-  @import 'skillfull-process-pro-antvue/dist/style.css';
+  @import 'anyi-process-ee-antvue/dist/style.css';
   @import 'bpmn-js/dist/assets/diagram-js.css';
   @import 'bpmn-js/dist/assets/bpmn-js.css';
 ```
 
-## 四、SkillFullBpmnPreview需要引入一下css样式
+## 四、AnYiBpmnPreview需要引入一下css样式
 ```
-  @import 'skillfull-process-pro-antvue/dist/style.css';
+  @import 'anyi-process-ee-antvue/dist/style.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
@@ -46,9 +46,9 @@ yarn add skillfull-process-pro-antvue
 
 ```
 
-## 五、SkillfullInstancePreview需要引入一下css样式
+## 五、AnYiInstancePreview需要引入一下css样式
 ```
-  @import 'skillfull-process-pro-antvue/dist/style.css';
+  @import 'anyi-process-ee-antvue/dist/style.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css';
@@ -56,9 +56,9 @@ yarn add skillfull-process-pro-antvue
   @import 'bpmn-js/dist/assets/diagram-js.css';
   @import 'diagram-js-minimap/assets/diagram-js-minimap.css';
 ```
-## 六、SkillFullZeebeBpmnDesigner需要引入一下依赖
+## 六、AnYiZeebeBpmnDesigner需要引入一下依赖
 ```
-  @import 'skillfull-process-pro-antvue/dist/style.css';
+  @import 'anyi-process-ee-antvue/dist/style.css';
   @import 'bpmn-js-color-picker/colors/color-picker.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn-codes.css';
