@@ -44,7 +44,10 @@
   </div>
 </template>
 <script lang="ts" setup>
-  import type { CreateHtmlFuncArgs } from 'anyi-process-ee-antvue';
+  import type {
+    CreateHtmlFuncArgs,
+    BpmnInstanceInfo,
+  } from 'anyi-process-ee-antvue/dist/types/types/instance.d';
   import instancesdata from './instancesdata.json';
   import { ref, onMounted } from 'vue';
   const diagramInstanceDomRef = ref();
@@ -53,7 +56,7 @@
     return '<scan>Nihao</scan>';
   }
   onMounted(() => {
-    diagramInstanceDomRef.value.viewInstance(instancesdata.data);
+    diagramInstanceDomRef.value.viewInstance(instancesdata.data as BpmnInstanceInfo);
   });
 </script>
 
