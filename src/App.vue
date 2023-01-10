@@ -36,18 +36,24 @@
 <!-- 预览流程实例 -->
 <!-- <template>
   <div id="app">
-    <AnYiInstanceBpmnPreview
+    <AnYiBpmnPreviewInstance
       ref="diagramInstanceDomRef"
+      :createHtml="getHtml"
       tagId="Activity_1s3ocxk:e63351bb-faaa-11ec-9f3a-0242ac1f090f"
     />
   </div>
 </template>
 <script lang="ts" setup>
-  import { instanceData } from './process';
+  import type { CreateHtmlFuncArgs } from 'anyi-process-ee-antvue';
+  import instancesdata from './instancesdata.json';
   import { ref, onMounted } from 'vue';
   const diagramInstanceDomRef = ref();
+  function getHtml(info: CreateHtmlFuncArgs) {
+    console.log('-----info-------', info);
+    return '<scan>Nihao</scan>';
+  }
   onMounted(() => {
-    diagramInstanceDomRef.value.viewInstance(instanceData.data);
+    diagramInstanceDomRef.value.viewInstance(instancesdata.data);
   });
 </script> -->
 
@@ -88,11 +94,11 @@
 <!-- zeebe建模 -->
 <!-- <template>
   <div id="app">
-    <AnYiZeebeBpmnDesigner @change="handleChange" ref="diagramDesigner" :comps="comps" />
+    <AnYiBpmnDesignerZeebe @change="handleChange" ref="diagramDesigner" :comps="comps" />
   </div>
 </template>
 <script lang="ts" setup>
-  import { ref, onMounted } from 'vue';
+  import { ref, reactive, onMounted } from 'vue';
   import { Category } from './components/Category';
   import { Role } from './components/Role';
   import { User } from './components/User';
@@ -118,23 +124,5 @@
   }
   onMounted(() => {
     diagramDesigner.value.createNewDiagram();
-  });
-</script> -->
-
-<!-- zeebe预览流程实例 -->
-<!-- <template>
-  <div id="app">
-    <AnYiZeebeInstancePreview
-      ref="diagramInstanceDomRef"
-      tagId="Activity_1s3ocxk:e63351bb-faaa-11ec-9f3a-0242ac1f090f"
-    />
-  </div>
-</template>
-<script lang="ts" setup>
-  import zeebeInstance from './zeebe_instance.json';
-  import { ref, onMounted } from 'vue';
-  const diagramInstanceDomRef = ref();
-  onMounted(() => {
-    diagramInstanceDomRef.value.viewInstance(zeebeInstance.data);
   });
 </script> -->

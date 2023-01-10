@@ -55,7 +55,7 @@ export default defineConfig({
           'ant-design-vue': 'ANTDESIGN',
         },
       },
-      input: 'example/index.html',
+      input: 'index.html',
     },
   },
 });
