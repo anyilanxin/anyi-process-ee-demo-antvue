@@ -1,7 +1,7 @@
 {
   "name": "anyi-process-ee-demo-antvue",
   "description": "一个基于Vue3.0 + TS 的流程建模预览器",
-  "version": "2.0.0-beta3",
+  "version": "2.0.0-beta10",
   "author": {
     "name": "zxiaozhou"
   },
