@@ -110,3 +110,10 @@ export interface Category {
 ### IMPROVEMENTS
 1. bpmn依赖升级
 2. 重构c7建模
+
+
+## 2.0.0-beta5
+
+### IMPROVEMENTS
+1. bpmn依赖升级
+2. 流程实例弹框信息改由外部提供
