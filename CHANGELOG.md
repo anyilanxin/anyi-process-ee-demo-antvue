@@ -117,3 +117,9 @@ export interface Category {
 ### IMPROVEMENTS
 1. bpmn依赖升级
 2. 流程实例弹框信息改由外部提供
+   
+
+## 2.0.0-beta8
+
+### IMPROVEMENTS
+1. 建模添加ts类型
