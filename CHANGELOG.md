@@ -136,3 +136,9 @@ export interface Category {
 2. 去掉多余样式
 3. 修复样式错误
 4. 修复类型引用错误
+
+
+## 2.0.0-beta11
+
+### IMPROVEMENTS
+1. 统一包名

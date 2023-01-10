@@ -1,7 +1,7 @@
 <!-- 建模 -->
 <template>
   <div id="app">
-    <AnYiBpmnDesigner @change="handleChange" ref="diagramDesigner" :comps="comps" />
+    <AnYiBpmnDesignerCamunda @change="handleChange" ref="diagramDesigner" :comps="comps" />
   </div>
 </template>
 <script lang="ts" setup>
