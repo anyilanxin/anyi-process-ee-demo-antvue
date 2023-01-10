@@ -123,3 +123,8 @@ export interface Category {
 
 ### IMPROVEMENTS
 1. 建模添加ts类型
+
+## 2.0.0-beta9
+
+### IMPROVEMENTS
+1. 去掉多余样式
