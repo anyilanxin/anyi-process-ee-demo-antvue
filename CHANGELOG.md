@@ -128,3 +128,8 @@ export interface Category {
 
 ### IMPROVEMENTS
 1. 去掉多余样式
+
+## 2.0.0-beta10
+
+### IMPROVEMENTS
+1. 修复样式错误
