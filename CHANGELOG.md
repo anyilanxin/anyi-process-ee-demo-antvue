@@ -132,4 +132,7 @@ export interface Category {
 ## 2.0.0-beta10
 
 ### IMPROVEMENTS
-1. 修复样式错误
+1. 建模添加ts类型
+2. 去掉多余样式
+3. 修复样式错误
+4. 修复类型引用错误
