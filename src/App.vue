@@ -1,5 +1,5 @@
 <!-- 建模 -->
-<!-- <template>
+<template>
   <div id="app">
     <AnYiBpmnDesigner @change="handleChange" ref="diagramDesigner" :comps="comps" />
   </div>
@@ -7,6 +7,7 @@
 <script lang="ts" setup>
   import { Category } from './components/Category';
   import { Role } from './components/Role';
+  import type { BpmnDiagramInfo } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   import { User } from './components/User';
   import { Time } from './components/Time';
   import { UserSingle } from './components/UserSingle';
@@ -26,15 +27,15 @@
     candidateGroups: Role,
     candidateUsers: User,
   };
-  function handleChange(__diagram: any) {
+  function handleChange(__diagram: BpmnDiagramInfo) {
     // console.log('---diagram---', diagram);
   }
   onMounted(() => {
     diagramDesigner.value.createNewDiagram();
   });
-</script> -->
+</script>
 <!-- 预览流程实例 -->
-<template>
+<!-- <template>
   <div id="app">
     <AnYiBpmnPreviewInstance
       ref="diagramInstanceDomRef"
@@ -58,7 +59,7 @@
   onMounted(() => {
     diagramInstanceDomRef.value.viewInstance(instancesdata.data as BpmnInstanceInfo);
   });
-</script>
+</script> -->
 
 <!-- 预览流程模型 -->
 
@@ -102,6 +103,7 @@
 </template>
 <script lang="ts" setup>
   import { ref, reactive, onMounted } from 'vue';
+  import type { BpmnDiagramInfo } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   import { Category } from './components/Category';
   import { Role } from './components/Role';
   import { User } from './components/User';
@@ -122,7 +124,7 @@
     candidateGroups: Role,
     candidateUsers: User,
   };
-  function handleChange(__diagram: any) {
+  function handleChange(__diagram: BpmnDiagramInfo) {
     // console.log('---diagram---', diagram);
   }
   onMounted(() => {
