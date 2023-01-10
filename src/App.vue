@@ -1,5 +1,5 @@
 <!-- 建模 -->
-<template>
+<!-- <template>
   <div id="app">
     <AnYiBpmnDesigner @change="handleChange" ref="diagramDesigner" :comps="comps" />
   </div>
@@ -32,9 +32,9 @@
   onMounted(() => {
     diagramDesigner.value.createNewDiagram();
   });
-</script>
+</script> -->
 <!-- 预览流程实例 -->
-<!-- <template>
+<template>
   <div id="app">
     <AnYiBpmnPreviewInstance
       ref="diagramInstanceDomRef"
@@ -55,7 +55,7 @@
   onMounted(() => {
     diagramInstanceDomRef.value.viewInstance(instancesdata.data);
   });
-</script> -->
+</script>
 
 <!-- 预览流程模型 -->
 
