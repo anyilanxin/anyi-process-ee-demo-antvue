@@ -20,7 +20,10 @@
   import CustomExpression from './CustomExpression.vue';
   import SystemExpression from './SystemExpression.vue';
   import type { PropType } from 'vue';
-  import { AnYiExtendInfoSingle, AnYiExtendProperty } from '../../../../src/types/modeler.d';
+  import {
+    AnYiExtendInfoSingle,
+    AnYiExtendProperty,
+  } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   const emit = defineEmits(['change']);
   const activeKey = ref<number>(1);
   const singleData = reactive<AnYiExtendInfoSingle>({} as AnYiExtendInfoSingle);

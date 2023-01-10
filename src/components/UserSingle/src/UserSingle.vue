@@ -28,7 +28,7 @@
   import SystemExpression from './SystemExpression.vue';
   import SystemFixedUser from './SystemFixedUser.vue';
   import type { PropType } from 'vue';
-  import { AnYiExtendInfoSingle, AnYiExtendProperty } from '../../../../src/types/modeler';
+  import { AnYiExtendInfoSingle, AnYiExtendProperty } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   const emit = defineEmits(['change']);
   const activeKey = ref<number>(1);
   const singleData = reactive<AnYiExtendInfoSingle>({} as AnYiExtendInfoSingle);

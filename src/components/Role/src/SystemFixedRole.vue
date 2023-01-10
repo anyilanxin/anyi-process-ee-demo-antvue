@@ -26,7 +26,10 @@
   import { Badge, Table } from 'ant-design-vue';
   import type { PropType } from 'vue';
   import { reactive, watch, nextTick, ref, toRaw } from 'vue';
-  import { AnYiExtendInfoArray, AnYiExtendProperty } from '../../../../src/types/modeler.d';
+  import {
+    AnYiExtendInfoArray,
+    AnYiExtendProperty,
+  } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   import { roleColumns } from './data';
   const selectRows = ref<any[]>([]);
   const rowKey = ref('roleId');

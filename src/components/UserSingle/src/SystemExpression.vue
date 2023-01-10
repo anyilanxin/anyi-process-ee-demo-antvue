@@ -32,9 +32,8 @@
   import type { PropType } from 'vue';
   import { Badge, Tag, Table } from 'ant-design-vue';
   import { watch, reactive, ref, toRaw } from 'vue';
-  import { AnYiExtendProperty } from '../../../../src/types/modeler.d';
+  import { AnYiExtendProperty } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   import { expressionColumns } from './data';
-  import { keyBy } from 'lodash';
   const selectRows = ref<any[]>([]);
   const rowKey = ref('expressionId');
   const type = ref<any>('radio');
@@ -117,7 +116,7 @@
       },
     };
   }
-  function handleClientChange(record, index) {
+  function handleClientChange(record, _index) {
     const key = record[rowKey.value];
     selectCustomChange(record, key);
   }
