@@ -27,8 +27,8 @@
     candidateGroups: Role,
     candidateUsers: User,
   };
-  function handleChange(__diagram: BpmnDiagramInfo) {
-    // console.log('---diagram---', diagram);
+  function handleChange(diagram: BpmnDiagramInfo) {
+    console.log('---diagram---', diagram);
   }
   onMounted(() => {
     diagramDesigner.value.createNewDiagram();
@@ -124,8 +124,8 @@
     candidateGroups: Role,
     candidateUsers: User,
   };
-  function handleChange(__diagram: BpmnDiagramInfo) {
-    // console.log('---diagram---', diagram);
+  function handleChange(diagram: BpmnDiagramInfo) {
+    console.log('---diagram---', diagram);
   }
   onMounted(() => {
     diagramDesigner.value.createNewDiagram();
