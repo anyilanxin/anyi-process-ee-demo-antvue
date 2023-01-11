@@ -116,7 +116,7 @@
       },
     };
   }
-  function handleClientChange(record, index) {
+  function handleClientChange(record, _index) {
     const key = record[rowKey.value];
     selectCustomChange(record, key);
   }
