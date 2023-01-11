@@ -46,7 +46,7 @@ yarn add anyi-process-ee-antvue
 
 ```
 
-## 五、AnYiInstancePreview需要引入一下css样式
+## 五、AnYiBpmnPreviewInstance需要引入一下css样式
 ```
   @import 'anyi-process-ee-antvue/dist/style.css';
   @import 'bpmn-js/dist/assets/bpmn-font/css/bpmn.css';
@@ -56,7 +56,7 @@ yarn add anyi-process-ee-antvue
   @import 'bpmn-js/dist/assets/diagram-js.css';
   @import 'diagram-js-minimap/assets/diagram-js-minimap.css';
 ```
-## 六、AnYiZeebeBpmnDesigner需要引入一下依赖
+## 六、AnYiBpmnDesignerZeebe需要引入一下依赖
 ```
   @import 'anyi-process-ee-antvue/dist/style.css';
   @import 'bpmn-js-color-picker/colors/color-picker.css';
