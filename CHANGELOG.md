@@ -148,3 +148,8 @@ export interface Category {
 
 ### IMPROVEMENTS
 1. 修复ant button样式错乱
+
+## 2.0.0-beta14
+
+### IMPROVEMENTS
+1. 排除ant样式非必要引入
