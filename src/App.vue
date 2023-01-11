@@ -15,7 +15,7 @@
   import { Role } from './components/Role';
   import type { BpmnDiagramInfo } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   import { User } from './components/User';
-  import { base64BpmnData } from './process';
+  import { CAMUNDA_MODEL } from './process';
   import { Time } from './components/Time';
   import { UserSingle } from './components/UserSingle';
   import { Expression } from './components/Expression';
@@ -47,7 +47,7 @@
     // 新建模型
     // diagramDesigner.value.createNewDiagram();
     // 加载历史base64模型
-    diagramDesigner.value.openBase64Diagram(base64BpmnData);
+    diagramDesigner.value.openBase64Diagram(CAMUNDA_MODEL);
   });
 </script>
 <!-- 预览流程实例 -->
@@ -127,8 +127,8 @@
   import { ref, onMounted } from 'vue';
   import type { BpmnDiagramInfo } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   import { Category } from './components/Category';
-import { Role } from './components/Role';
-    import { base64BpmnData } from './process';
+  import { Role } from './components/Role';
+  import { ZEEBE_MODEL } from './process';
   import { User } from './components/User';
   import { Time } from './components/Time';
   import { UserSingle } from './components/UserSingle';
@@ -160,6 +160,6 @@ import { Role } from './components/Role';
     // 新建模型
     // diagramDesigner.value.createNewDiagram();
     // 加载历史base64模型
-    diagramDesigner.value.openBase64Diagram(base64BpmnData);
+    diagramDesigner.value.openBase64Diagram(ZEEBE_MODEL);
   });
 </script> -->
