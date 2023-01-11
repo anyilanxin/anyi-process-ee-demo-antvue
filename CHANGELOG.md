@@ -168,3 +168,4 @@ export interface Category {
 ### IMPROVEMENTS
 1. 精简代码
 2. 对建模器示例提供保存、部署、变更、打开历史模型案例
+3. 修复ts类型导入错误

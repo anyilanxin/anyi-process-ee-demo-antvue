@@ -26,7 +26,7 @@
   import { watch, reactive, toRaw } from 'vue';
   import type { PropType } from 'vue';
   import { Form, FormItem, DatePicker } from 'ant-design-vue';
-  import { AnYiExtendProperty } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
+  import type { AnYiExtendProperty } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   const emit = defineEmits(['change']);
   const data = reactive<AnYiExtendProperty>({} as AnYiExtendProperty);
   const props = defineProps({

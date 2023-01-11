@@ -28,7 +28,7 @@
   import SystemExpression from './SystemExpression.vue';
   import SystemFixedRole from './SystemFixedRole.vue';
   import type { PropType } from 'vue';
-  import {
+  import type {
     AnYiExtendInfoArray,
     AnYiExtendProperty,
   } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';

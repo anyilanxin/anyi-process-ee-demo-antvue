@@ -27,7 +27,7 @@
   import { Badge, Table } from 'ant-design-vue';
   import type { PropType } from 'vue';
   import { reactive, watch, ref, toRaw } from 'vue';
-  import { AnYiExtendProperty } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
+  import type { AnYiExtendProperty } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   import { columns } from './data';
   const rowKey = ref('userId');
   const emit = defineEmits(['change']);
