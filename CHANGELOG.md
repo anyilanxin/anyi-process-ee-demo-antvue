@@ -142,3 +142,9 @@ export interface Category {
 
 ### IMPROVEMENTS
 1. 统一包名
+
+
+## 2.0.0-beta13
+
+### IMPROVEMENTS
+1. 修复ant button样式错乱
