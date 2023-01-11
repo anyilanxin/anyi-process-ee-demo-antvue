@@ -1,7 +1,13 @@
 <!-- 建模 -->
 <template>
   <div id="app">
-    <AnYiBpmnDesignerCamunda @change="handleChange" ref="diagramDesigner" :comps="comps" />
+    <AnYiBpmnDesignerCamunda
+      @change="handleChange"
+      ref="diagramDesigner"
+      :comps="comps"
+      @save="handleSave"
+      @deployment="handleDeployment"
+    />
   </div>
 </template>
 <script lang="ts" setup>
@@ -9,6 +15,7 @@
   import { Role } from './components/Role';
   import type { BpmnDiagramInfo } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   import { User } from './components/User';
+  import { base64BpmnData } from './process';
   import { Time } from './components/Time';
   import { UserSingle } from './components/UserSingle';
   import { Expression } from './components/Expression';
@@ -28,10 +35,19 @@
     candidateUsers: User,
   };
   function handleChange(diagram: BpmnDiagramInfo) {
-    console.log('---diagram---', diagram);
+    console.log('--模型发生了变更----', diagram);
+  }
+  function handleSave(diagram: BpmnDiagramInfo) {
+    console.log('---点击了保存按钮---', diagram);
+  }
+  function handleDeployment(diagram: BpmnDiagramInfo) {
+    console.log('---点击了部署按钮---', diagram);
   }
   onMounted(() => {
-    diagramDesigner.value.createNewDiagram();
+    // 新建模型
+    // diagramDesigner.value.createNewDiagram();
+    // 加载历史base64模型
+    diagramDesigner.value.openBase64Diagram(base64BpmnData);
   });
 </script>
 <!-- 预览流程实例 -->
@@ -98,14 +114,21 @@
 <!-- zeebe建模 -->
 <!-- <template>
   <div id="app">
-    <AnYiBpmnDesignerZeebe @change="handleChange" ref="diagramDesigner" :comps="comps" />
+    <AnYiBpmnDesignerZeebe
+      @change="handleChange"
+      ref="diagramDesigner"
+      :comps="comps"
+      @save="handleSave"
+      @deployment="handleDeployment"
+    />
   </div>
 </template>
 <script lang="ts" setup>
-  import { ref, reactive, onMounted } from 'vue';
+  import { ref, onMounted } from 'vue';
   import type { BpmnDiagramInfo } from 'anyi-process-ee-antvue/dist/types/types/designercommon.d';
   import { Category } from './components/Category';
-  import { Role } from './components/Role';
+import { Role } from './components/Role';
+    import { base64BpmnData } from './process';
   import { User } from './components/User';
   import { Time } from './components/Time';
   import { UserSingle } from './components/UserSingle';
@@ -125,9 +148,18 @@
     candidateUsers: User,
   };
   function handleChange(diagram: BpmnDiagramInfo) {
-    console.log('---diagram---', diagram);
+    console.log('--模型发生了变更----', diagram);
+  }
+  function handleSave(diagram: BpmnDiagramInfo) {
+    console.log('---点击了保存按钮---', diagram);
+  }
+  function handleDeployment(diagram: BpmnDiagramInfo) {
+    console.log('---点击了部署按钮---', diagram);
   }
   onMounted(() => {
-    diagramDesigner.value.createNewDiagram();
+    // 新建模型
+    // diagramDesigner.value.createNewDiagram();
+    // 加载历史base64模型
+    diagramDesigner.value.openBase64Diagram(base64BpmnData);
   });
 </script> -->

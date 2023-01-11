@@ -161,3 +161,10 @@ export interface Category {
 1. 修复颜色选择器错误
 2. bpmn依赖升级
 3. 颜色选择器依赖升级
+
+
+## 2.0.0-beta16
+
+### IMPROVEMENTS
+1. 精简代码
+2. 对建模器示例提供保存、部署、变更、打开历史模型案例
