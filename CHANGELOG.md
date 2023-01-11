@@ -153,3 +153,11 @@ export interface Category {
 
 ### IMPROVEMENTS
 1. 排除ant样式非必要引入
+
+
+## 2.0.0-beta15
+
+### IMPROVEMENTS
+1. 修复颜色选择器错误
+2. bpmn依赖升级
+3. 颜色选择器依赖升级
